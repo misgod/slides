@@ -504,7 +504,7 @@ Note:(?:^\((?<=\()(\d{2})(?=\))\)|^(\d{2}))-?(\d{3})-?(\d{4})
 
 ```
 val url = "https://dl.dropboxusercontent.com/u/67374708/slides/regex101/phones.txt"
-getPhones(url).foreach(println)
+parsePhones(url).foreach(println)
 ```
 ---
 # Live Demo
