@@ -12,6 +12,16 @@ A regular expression (abbreviated **regex** or **regexp**) is a sequence of char
 ~~ Wikipedia
 
 ---
+### What does it mean?
+
+<br/>
+
+
+```
+<a\s+href=(?:"([^"]+)"|'([^']+)').*?>(.*?)</a>
+```
+
+---
 ## Why learn Regex??
 ---
 
